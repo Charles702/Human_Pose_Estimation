@@ -8,7 +8,7 @@ out [this repository](https://github.com/chenjshihchieh/Unity-data-collection).
 Before training our model, we need to generate images and labels based on the data we collected using Unity.
 
 The diagram below illustrates the process of generating the images:
-![](./doc/images/data-generation.png)
+![](./Training_model/doc/images/data-generation.png)
 
 Each label is composed of (x, y) coordinates of the 21 keypoints after cropping the capture image (a total of 42
 numbers), ultimately derived from annotation data captured in Unity.
@@ -22,7 +22,7 @@ To verify segmentation images:
 
 Example result:
 
-![](./doc/images/seg-verification.png)
+![](./Training_model/doc/images/seg-verification.png)
 
 How to generate images and labels for the model:
 
@@ -33,7 +33,7 @@ How to generate images and labels for the model:
 
 Example result, generated image and keypoint coordinates excerpted from the corresponding `.dat` file:
 
-![](./doc/images/gen-example.jpg)
+![](./Training_model/doc/images/gen-example.jpg)
 
 ```
 144.337646484375 175.34860229492188 139.01473999023438 161.71273803710938 121.14251708984375 138.3570556640625 108.52351379394531 97.51309204101562 93.55744934082031 78.06307983398438 146.45822143554688 196.06893920898438 150.63327026367188 254.42599487304688 237.86849975585938 272.1484069824219 238.2984619140625 299.012451171875 143.72525024414062 168.48287963867188 93.70547485351562 229.15171813964844 115.41853332519531 283.83567810058594 83.12446594238281 286.8453826904297 108.13362121582031 112.98324584960938 110.00558471679688 130.53781127929688 142.36370849609375 177.38316345214844 82.56181335449219 159.21612548828125 109.21835327148438 98.7264404296875 113.514404296875 82.65817260742188 163.92178344726562 102.13677978515625 118.7830810546875 129.430908203125
